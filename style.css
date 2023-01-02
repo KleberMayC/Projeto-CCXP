@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:  #FFD900;
+    
+}
+
+nav img{
+    margin: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+
+
+.time p {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #514988;
+}
+
+.text{
+    background: #514988;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0px 10px 0px 0px; 
+}
+.text h1{
+    color:#F3C61F;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    
+    margin-top: 25px;
+
+}
+
+.text h2{
+    color: white;
+    margin-top: 10px;
+        font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 85px;
+}
+
+p{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+
+
+    color: #FFFFFF;
+
+    margin-top: 30px;
+}
+
+.time h1 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    
+  
+
+    color: #514988;
+
+}
+
+.time h3{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+ 
+
+    color: #E33881;
+}
+
+.time {
+    align-items: center;
+    text-align: center;
+    
+} 
+
+.count{
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+
+}
+.count p {
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.count h1 {
+    margin-left: 40px;
+}
+
+.cards {
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.ingresso p {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    margin-bottom: 20px;
+
+ 
+
+    color: #F3C61F;
+}
+
+button {
+    background-color: #514988;
+    border-radius: 20px;
+    width: 596px;
+    height: 148px;
+    border: none;
+    margin-left: 107px;
+    margin-top: 109px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+
+button:hover {
+    background-color: #F3C61F;
+}
